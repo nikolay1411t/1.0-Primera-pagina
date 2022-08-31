@@ -1,0 +1,229 @@
+header {
+    background-color: #f2ae1c;
+    padding: 15px;
+}
+
+.encabezado {
+    width: 840px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.menu {
+    text-decoration: none;
+    position: absolute;
+    top: 95px;
+    right: 0;
+}
+
+.menu a:hover{
+    color:  #40533a;
+    text-decoration: underline;
+}
+
+.menu li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration-style: none;
+    margin:0 0 0 10px;
+}
+.menu a {
+    text-decoration: none;
+    font-weight:bold;
+    color: #4c7031;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.img_1{
+    width: 100%;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.acerca_de {
+    font-size: 24px;
+    color:#f2ae1c;
+    text-align: center;
+    
+}
+
+
+legend{
+    font-size: 14px;
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    color: #4c7031;
+}
+
+.p_3{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 4px;
+}
+
+
+
+.img-central {
+    width: 840px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 15px 15px;
+}
+
+.seccion-central {
+    display: flex;
+    justify-content: space-around;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.seccion-central-iz {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+
+}
+
+.seccion-central-de {
+    width: 55%;
+    display: inline-block;
+    border: 2px solid #f2ae1c;
+    border-top: 10px solid #f2ae1c;
+    padding: 2px;
+    box-sizing: border-box;
+    
+
+}
+
+
+.caracteristicas {
+    font-size: 24px;
+    color:#f2ae1c;
+    text-align: center;
+    
+}
+
+.caracteristicas-box {
+    width: 840px;
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+
+}
+
+.caracteristicas-lista li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #2d3b23;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+
+footer{
+    background-color: #2d3b23;
+    text-align: center;
+    padding: 15px;
+}
+
+.derechos {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 15px;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.input-first {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 0 0 15px;
+    border: 2px solid #f2ae1c;
+    
+}
+
+.cuadros {
+    padding: 15px 0;
+}
+
+.cuadros label{
+    margin: 0 0 15px;
+    color: #4c7031; 
+    font-weight: bolder;   
+}
+
+.p-contacto,.checkbox label, legend {
+    font-size: 17px;
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;
+    color: #4c7031;
+}
+
+.selection legend{
+    padding: 10px 0;
+    font-weight: bolder;
+   
+
+}
+
+.enviar {
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f2ae1c;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: 1s background;
+    transition: 1s font-size;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkgoldenrod;
+    font-size: 19px;
+}
+
+thead {
+    background-color: #f2ae1c;
+}
+
+thead tr, tbody tr {
+    margin: 10px;
+    border: 2px solid #000000;
+    font-size: 19px;
+    padding: 2px;
+}
+
+thead th, tbody td {
+    padding: 10px;
+    border: 2px solid #000000;;
+}
+
+.tabla{
+    margin: 10px 10%;
+
+}
+

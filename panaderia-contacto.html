@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-panaderia-contacto.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>panaderia-contacto</title>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="encabezado">
+                <h1><img src="img/logotipo_1.png" alt="logotipo_1" width="190"></h1>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="panaderia-productos.html">productos</a></li>
+                        <li><a href="panaderia-contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </header>
+    <main>  
+        <form >
+            <fieldset class="cuadros">
+                <label for="nombreyapellido"> Nombre y apellido <input type="text" id="nombreyapellido" class="input-first" required></label>
+
+                <label for="correoelectronico"> Correo electrónico <input type="email" id="correoelectronico" class="input-first" required></label>
+
+                <label for="telefono"> Teléfono <input type="tel" id="telefono" class="input-first" required></label>
+
+                <label for="textarea" > Mensaje <textarea name="mensaje" id="textarea" cols="30" rows="10" class="input-first" required></textarea></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend class="p-contacto"> ¿Como quisiéra que lo contactemos?</legend>
+                <label> <input type="radio" value="email" name="contactemos" checked> Email</label>
+                <br>
+                <label> <input type="radio" value="celular" name="contactemos"> Celular</label>
+                <br>
+                <label> <input type="radio" value="whatsapp" name="contactemos"> Whatsapp</label>
+                <br>
+            </fieldset>
+            <fieldset class="checkbox">
+                 <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox" class="checkbox" checked> ¿Quisiera recibir información de panaderia?</label>
+            </fieldset>
+            <fieldset class="selection">
+                <legend for="selection">¿En que horario quisiera que lo atendámos?</legend>
+                <select name="selection" id="selection">
+                <option >mañana</option>
+                <option >tarde</option>
+                <option >noche</option>
+                </select>
+            </fieldset>
+
+
+            <input type="submit" value="enviar formulario" class="enviar">
+
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>día</th>
+                        <th>horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lunes</td>
+                        <td>8h - 22h</td>
+                    </tr>
+                    <tr>
+                        <td>miercoles</td>
+                        <td>8h - 22h</td>
+                    </tr>
+                    <tr>
+                        <td>viernes</td>
+                        <td>8h - 22h</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="img/logotipo_2.png" alt="pie" width="190">
+        <p class="derechos"> &copy derechos resevados 2021</p>
+    </footer>
+</body>
+</html>
